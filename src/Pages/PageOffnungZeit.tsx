@@ -1,14 +1,15 @@
 import { BsFillHouseAddFill, BsFillBusFrontFill } from "react-icons/bs";
 import { GiLion } from "react-icons/gi";
 import { FaCampground } from "react-icons/fa";
-import { AiOutlinePlus } from "react-icons/ai";
-import { useState,useEffect } from "react";
+
+import { useState } from "react";
 
 
 const PageOffnungZeit = () => {
 const [isOpen, setIsOpen]=useState([false,false,false,false])
 
 const handleOpen=(index:number)=>{
+ 
   const openState = isOpen.map((item, i) => i === index ? !item : false);
 
 
