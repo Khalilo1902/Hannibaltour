@@ -1,19 +1,19 @@
 const PageHome = () => {
   return (
     <div>
-      <div className="flex gap-3">
-        <section className="flex flex-col text-center items-center mt-7 gap-3 border-solid  container mx-auto ">
+      <div className="flex flex-col md:flex-row gap-3 ">
+        <section className=" flex flex-col text-center items-center mt-7 gap-3 border-solid  container mx-auto ">
           <h2 className="text-[1.7rem] p-2 m-1">Sousse</h2>
 
           <figure>
             <img
-              className="w-[400px] h-auto rounded-2xl"
+              className="w-[400px] h-auto rounded-2xl cursor-pointer"
               src="../../public/bilder/sousse.jpg"
               alt=""
             />
             <figcaption>
-              {" "}
-              <span>statt 80 $</span> Nur für{" "}
+             
+              <span>statt 80 $</span> Nur für
               <span className="text-3xl text-red-800">35 $</span>
             </figcaption>
           </figure>
@@ -33,7 +33,7 @@ const PageHome = () => {
 
           <figure>
             <img
-              className="w-[400px] h-auto rounded-2xl"
+              className="w-[400px] h-auto rounded-2xl cursor-pointer"
               src="../../public/bilder/wusste.jpg"
               alt=""
             />
@@ -59,7 +59,7 @@ const PageHome = () => {
 
           <figure>
             <img
-              className="w-[400px] h-auto rounded-2xl"
+              className="w-[400px] h-auto rounded-2xl cursor-pointer"
               src="../../public/bilder/touzer.jpg"
               alt=""
             />

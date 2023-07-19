@@ -32,7 +32,7 @@ useEffect(()=>{
               <NavLink to={"/home"}>Home</NavLink>
             </li>
             <li className="liNav md:text-[1.4rem] transition ease-in-out duration-300 hover:skew-y-10 ">
-              <NavLink to={"/chat"}>Chat</NavLink>
+              <NavLink to={"/offnungzeit"}>ÖffnungZeit</NavLink>
             </li>
             <li className="liNav md:text-[1.4rem]">
               <NavLink to={"/contact"}>Contact</NavLink>

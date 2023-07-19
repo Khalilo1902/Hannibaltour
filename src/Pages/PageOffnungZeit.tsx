@@ -5,21 +5,18 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { useState,useEffect } from "react";
 
 
-const PageChat = () => {
+const PageOffnungZeit = () => {
 const [isOpen, setIsOpen]=useState([false,false,false,false])
 
 const handleOpen=(index:number)=>{
   const openState = isOpen.map((item, i) => i === index ? !item : false);
 
-  console.log(isOpen[0])
-  console.log(isOpen[1])
-  console.log(isOpen[2])
-  console.log(isOpen[3])
+
    
 
   
    setIsOpen(openState)
-   console.log(openState)
+  
    
 
 }
@@ -119,4 +116,4 @@ const handleOpen=(index:number)=>{
   );
 };
 
-export default PageChat;
+export default PageOffnungZeit;
