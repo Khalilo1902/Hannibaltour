@@ -3,7 +3,7 @@
 const Name = () => {
   return (
     <div className="flex justify-center">
-           <h1 className=" text-[3rem] text-red-500 font-sans " >
+           <h1 className=" text-[3rem] text-red-100 font-sans " >
         <span className="font-sans">H</span>
         <span>A</span>
         <span>N</span>

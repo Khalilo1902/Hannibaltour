@@ -1,158 +1,123 @@
 const Footer = () => {
   return (
-    <div className=" bg-yellow-50  mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  w-full justify-items-center gap-12 py-4 ">
-      {/* <div className=" flex flex-col  justify-center gap-3 w-1/3 h-96">
-        
-        <div className=" flex flex-wrap ">
-          
-        </div>
-      </div>
-      <div className=" flex flex-col gap-3  justify-center w-1/3 h-96">
-       
-        <div className=" flex flex-wrap ">
-        
-       
-        </div> 
-      </div>
-      <div className=" flex flex-col  justify-center w-1/3 h-96">
-        <h4 className="text[1rem] text-red-700 uppercase">
-          Geprüfte Sicherheit
-        </h4>
-        <img className=" w-[100px]" src="../../public/bilder/zahlungen/gepruft.jpg" alt="" />
-      </div>*/}
-      <div className=" flex flex-col items-center justify-center w-full">
+    <div>
+
+    <footer className="bg-slate-200  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full">
+      <div className=" flex flex-col items-center justify-start w-full border-b py-3 lg:border-r lg:border-b-0 border-gray-400">
         <div className="">
-          <h4 className="">Unsere Bezahlarten</h4>
+          <h4 className=" mb-4">Unsere Bezahlarten</h4>
         </div>
         <div className=" flex flex-col gap-4">
-       <div className=" grid grid-cols-3 ">
-       <img
-            className="clarna w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/klarna-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/master-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/paypal-card.png"
-            alt=""
-          />
-       </div>
-         <div className=" grid grid-cols-3 ">
-         <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/visa-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3  bg-center"
-            src="../../public/bilder/zahlungen/vorkasse-card.png"
-            alt=""
-          />
-          <img className ="w-1/3" src="../../public/bilder/zahlungen/spa.png" alt="" />
-         </div>
+          <div className=" grid grid-cols-3 justify-items-center gap-12">
+            <img
+              className="clarna w-[70px] rounded-xl"
+              src="../../public/bilder/zahlungen/klarna-card.png"
+              alt=""
+            />
+            <img
+              className="w-[70px] rounded-xl"
+              src="../../public/bilder/zahlungen/master-card.png"
+              alt=""
+            />
+            <img
+              className="w-[70px] rounded-xl"
+              src="../../public/bilder/zahlungen/paypal-card.png"
+              alt=""
+            />
+          </div>
+          <div className=" grid grid-cols-3 justify-items-center gap-12">
+            <img
+              className="w-[70px] rounded-xl"
+              src="../../public/bilder/zahlungen/visa-card.png"
+              alt=""
+            />
+            <img
+              className="w-[70px]  bg-center"
+              src="../../public/bilder/zahlungen/vorkasse-card.png"
+              alt=""
+            />
+            <img
+              className="w-[70px]"
+              src="../../public/bilder/zahlungen/spa.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-      <div className=" flex flex-col items-center justify-center w-full">
+      <div className=" flex flex-col items-center justify-start w-full border-b py-3 lg:border-r lg:border-b-0 border-gray-400">
         <div className=" flex justify-center w-full">
-        <h4 className="">Unsere Partner</h4>
+          <h4 className=" mb-4">Unsere Partner</h4>
         </div>
         <div className=" flex flex-col gap-4 ">
-       <div className=" grid grid-cols-2 justify-items-center">
-       <img
-          className="w-1/3 rounded-xl bg-cover "
-          src="../../public/bilder/Partner/dpd.png"
-          alt=""
-        />
-        <img
-          className="w-1/3 rounded-xl bg-cover "
-          src="../../public/bilder/Partner/lufthansa.jpg"
-          alt=""
-        />
-       </div>
-         <div className=" grid grid-cols-2 justify-items-center ">
-         <img
-          className=" rounded-xl bg-cover w-1/3"
-          src="../../public/bilder/Partner/sparkasse.png"
-          alt=""
-        />
-        <img
-          className=" rounded-xl bg-cover w-1/3"
-          src="../../public/bilder/zahlungen/spiegeltv.png"
-          alt=""
-        />
-         </div>
+          <div className=" grid grid-cols-2 justify-items-center gap-12">
+            <img
+              className="w-[70px] rounded-xl bg-cover "
+              src="../../public/bilder/Partner/dpd.png"
+              alt=""
+            />
+            <img
+              className="w-[70px] rounded-xl bg-cover "
+              src="../../public/bilder/Partner/lufthansa.jpg"
+              alt=""
+            />
+          </div>
+          <div className=" grid grid-cols-2 justify-items-center gap-4 ">
+            <img
+              className=" rounded-xl bg-cover w-[70px]"
+              src="../../public/bilder/Partner/sparkasse.png"
+              alt=""
+            />
+            <img
+              className=" rounded-xl bg-cover w-[70px]"
+              src="../../public/bilder/zahlungen/spiegeltv.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-      <div className=" flex flex-col items-center justify-center w-full ">
-        <div>
-          <h4 className="">Unsere Bezahlarten</h4>
+      <div className=" flex flex-col items-center justify-start w-full border-b py-3 lg:border-r lg:border-b-0 border-gray-400">
+        <div className=" flex flex-col items-center">
+          <h4 className="">Social Media</h4>
+          <p>E-Mail:khalil.haouas@gmail.gmail </p>
+          <p className=" mb-4">Telefon: 02331 - 00 00 00 00 </p>
+
         </div>
         <div className=" flex flex-col gap-4">
-       <div className=" grid grid-cols-3 ">
-       <img
-            className="clarna w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/klarna-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/master-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/paypal-card.png"
-            alt=""
-          />
-       </div>
-     
+          <div className=" grid grid-cols-3 justify-items-center gap-8">
+            <img
+              className="clarna w-[30px] rounded-xl "
+              src="../../public/bilder/zahlungen/social-media/fb.png"
+              alt=""
+            />
+            <img
+              className="w-[30px] rounded-xl"
+              src="../../public/bilder/zahlungen/social-media/instagram.png"
+              alt=""
+            />
+            <img
+              className="w-[30px] rounded-xl"
+              src="../../public/bilder/zahlungen/social-media/twitter.png"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-      <div className=" flex flex-col items-center justify-center w-full">
-        <div>
-          <h4 className="">Unsere Bezahlarten</h4>
+      <div className=" flex flex-col items-center justify-start w-full  py-3">
+        <div className=" mb-4">
+          <h4 className="">Aboniren unsere news letter</h4>
         </div>
         <div className=" flex flex-col gap-4">
-       <div className=" grid grid-cols-3 ">
-       <img
-            className="clarna w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/klarna-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/master-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/paypal-card.png"
-            alt=""
-          />
-       </div>
-         <div className=" grid grid-cols-3 ">
-         <img
-            className="w-1/3 rounded-xl"
-            src="../../public/bilder/zahlungen/visa-card.png"
-            alt=""
-          />
-          <img
-            className="w-1/3  bg-center"
-            src="../../public/bilder/zahlungen/vorkasse-card.png"
-            alt=""
-          />
-          <img className ="w-1/3" src="../../public/bilder/zahlungen/spa.png" alt="" />
-         </div>
+        <input className=" outline-none py-2 px-4 rounded-lg" type="email" placeholder="Write Your Email ..." />
+<span className=" mt-3"><button className=" bg-red-300 rounded-full py-2 px-4">Abonieren</button></span>
         </div>
+
       </div>
+    </footer>
+    <div className=" bg-black text-center">
+       <p className=" text-white">&copy;2023 || AllRight Reserved</p>
+    </div>
 
     </div>
   );
 };
-
 export default Footer;
