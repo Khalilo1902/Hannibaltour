@@ -22,7 +22,7 @@ useEffect(()=>{
       <header className="flex justify-between m-2 p-2 items-center container  mx-auto">
         <img
           className="w-24 h-24 object-cover rounded-3xl"
-          src="../../public/bilder/logo.jpg"
+          src="/bilder/logo.jpg"
           alt=""
         />
 

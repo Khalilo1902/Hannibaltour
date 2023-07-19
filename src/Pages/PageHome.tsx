@@ -8,7 +8,7 @@ const PageHome = () => {
           <figure>
             <img
               className="w-[400px] h-auto rounded-2xl cursor-pointer"
-              src="../../public/bilder/sousse.jpg"
+              src="/bilder/sousse.jpg"
               alt=""
             />
             <figcaption>
@@ -34,7 +34,7 @@ const PageHome = () => {
           <figure>
             <img
               className="w-[400px] h-auto rounded-2xl cursor-pointer scale-100 ease-in hover:scale-125"
-              src="../../public/bilder/wusste.jpg"
+              src="/bilder/wusste.jpg"
               alt=""
             />
             <figcaption>
@@ -60,7 +60,7 @@ const PageHome = () => {
           <figure>
             <img
               className="w-[400px] h-auto rounded-2xl cursor-pointer"
-              src="../../public/bilder/touzer.jpg"
+              src="/bilder/touzer.jpg"
               alt=""
             />
             <figcaption>
@@ -84,7 +84,7 @@ const PageHome = () => {
         <section>
           <img
             className=" h-[40vh] w-full object-cover"
-            src="../../public/bilder/main-bild.jpg"
+            src="/bilder/main-bild.jpg"
             alt=""
           />
         </section>
@@ -95,7 +95,7 @@ const PageHome = () => {
           <figure className=" flex flex-col items-center justify-center p-3">
             <img
               className=" w-[200px] h-[200px] mb-4 rounded cursor-pointer scale-100 ease-in hover:scale-125"
-              src="../../public/bilder/essen/couscous.jpg"
+              src="/bilder/essen/couscous.jpg"
               alt=""
             />
             <figcaption className=" p-3">
@@ -111,7 +111,7 @@ const PageHome = () => {
           <figure className=" flex flex-col items-center justify-center p-3">
             <img
               className=" w-[200px] h-[200px] mb-4 rounded cursor-pointer scale-100 ease-in hover:scale-125"
-              src="../../public/bilder/essen/salat.jpg"
+              src="/bilder/essen/salat.jpg"
               alt=""
             />
             <figcaption className=" p-3">
@@ -129,7 +129,7 @@ const PageHome = () => {
           <figure className=" flex flex-col items-center justify-center p-3">
             <img
               className=" w-[200px] h-[200px]  mb-4 rounded cursor-pointer scale-100 ease-in hover:scale-125"
-              src="../../public/bilder/essen/meerfruchten.jpg"
+              src="/bilder/essen/meerfruchten.jpg"
               alt=""
             />
             <figcaption className=" p-3">

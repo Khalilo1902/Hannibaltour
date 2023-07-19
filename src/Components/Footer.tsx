@@ -11,34 +11,34 @@ const Footer = () => {
           <div className=" grid grid-cols-3 justify-items-center gap-12">
             <img
               className="clarna w-[70px] rounded-xl"
-              src="../../public/bilder/zahlungen/klarna-card.png"
+              src="/bilder/zahlungen/klarna-card.png"
               alt=""
             />
             <img
               className="w-[70px] rounded-xl"
-              src="../../public/bilder/zahlungen/master-card.png"
+              src="/bilder/zahlungen/master-card.png"
               alt=""
             />
             <img
               className="w-[70px] rounded-xl"
-              src="../../public/bilder/zahlungen/paypal-card.png"
+              src="/bilder/zahlungen/paypal-card.png"
               alt=""
             />
           </div>
           <div className=" grid grid-cols-3 justify-items-center gap-12">
             <img
               className="w-[70px] rounded-xl"
-              src="../../public/bilder/zahlungen/visa-card.png"
+              src="/bilder/zahlungen/visa-card.png"
               alt=""
             />
             <img
               className="w-[70px]  bg-center"
-              src="../../public/bilder/zahlungen/vorkasse-card.png"
+              src="/bilder/zahlungen/vorkasse-card.png"
               alt=""
             />
             <img
               className="w-[70px]"
-              src="../../public/bilder/zahlungen/spa.png"
+              src="/bilder/zahlungen/zahlungen/spa.png"
               alt=""
             />
           </div>
@@ -52,24 +52,24 @@ const Footer = () => {
           <div className=" grid grid-cols-2 justify-items-center gap-12">
             <img
               className="w-[70px] rounded-xl bg-cover "
-              src="../../public/bilder/Partner/dpd.png"
+              src="/bilder/Partner/dpd.png"
               alt=""
             />
             <img
               className="w-[70px] rounded-xl bg-cover "
-              src="../../public/bilder/Partner/lufthansa.jpg"
+              src="/bilder/Partner/lufthansa.jpg"
               alt=""
             />
           </div>
           <div className=" grid grid-cols-2 justify-items-center gap-4 ">
             <img
               className=" rounded-xl bg-cover w-[70px]"
-              src="../../public/bilder/Partner/sparkasse.png"
+              src="/bilder/Partner/sparkasse.png"
               alt=""
             />
             <img
               className=" rounded-xl bg-cover w-[70px]"
-              src="../../public/bilder/zahlungen/spiegeltv.png"
+              src="/bilder/zahlungen/spiegeltv.png"
               alt=""
             />
           </div>
@@ -86,17 +86,17 @@ const Footer = () => {
           <div className=" grid grid-cols-3 justify-items-center gap-8">
             <img
               className="clarna w-[30px] rounded-xl "
-              src="../../public/bilder/zahlungen/social-media/fb.png"
+              src="/bilder/zahlungen/social-media/fb.png"
               alt=""
             />
             <img
               className="w-[30px] rounded-xl"
-              src="../../public/bilder/zahlungen/social-media/instagram.png"
+              src="/bilder/zahlungen/social-media/instagram.png"
               alt=""
             />
             <img
               className="w-[30px] rounded-xl"
-              src="../../public/bilder/zahlungen/social-media/twitter.png"
+              src="/bilder/zahlungen/social-media/twitter.png"
               alt=""
             />
           </div>
