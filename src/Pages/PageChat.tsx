@@ -7,12 +7,20 @@ import { useState,useEffect } from "react";
 
 const PageChat = () => {
 const [isOpen, setIsOpen]=useState([false,false,false,false])
-const handleOpen=(index)=>{
-  const openState=isOpen
-  openState[index] = !openState[index]
-  console.log(isOpen[index])
+
+const handleOpen=(index:number)=>{
+  const openState = isOpen.map((item, i) => i === index ? !item : false);
+
+  console.log(isOpen[0])
+  console.log(isOpen[1])
+  console.log(isOpen[2])
+  console.log(isOpen[3])
+   
+
+  
    setIsOpen(openState)
-  console.log(isOpen)
+   console.log(openState)
+   
 
 }
 
@@ -29,7 +37,7 @@ const handleOpen=(index)=>{
           Stunden & Prices
         </h2>
       </div>
-      <div className=" flex flex-col items-center justify-center mt-[3rem] divide-y divide-slate-500 w-1/2 mx-auto">
+      <div className=" flex flex-col items-center justify-center mt-[3rem] divide-y divide-slate-500 w-4/5 lg:w-1/2 mx-auto">
         
               
 

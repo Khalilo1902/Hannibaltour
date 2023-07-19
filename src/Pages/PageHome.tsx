@@ -1,7 +1,7 @@
 const PageHome = () => {
   return (
     <div>
-      <div className=" md:flex flex-row gap-3">
+      <div className="flex gap-3">
         <section className="flex flex-col text-center items-center mt-7 gap-3 border-solid  container mx-auto ">
           <h2 className="text-[1.7rem] p-2 m-1">Sousse</h2>
 
@@ -89,7 +89,7 @@ const PageHome = () => {
           />
         </section>
       </div>
-      <div className=" container mx-auto flex  items-center justify-center gap-12 sm:flex-wrap md:flex">
+      <div className=" container mx-auto flex  items-center justify-center gap-12 flex-wrap ">
         <div className=" flex flex-col gap-4 bg-slate-200 outline-2 w-[300px] items-center justify-center mb-4 rounded-lg">
           <h2>Couscous</h2>
           <figure className=" flex flex-col items-center justify-center p-3">
