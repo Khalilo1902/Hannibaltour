@@ -27,7 +27,7 @@ const handleOpen=(index:number)=>{
 
 
   return (
-    <div className="bg-[url('../../public/bilder/belvedere.jpg')] bg-center bg-no-repeat w-full min-h-screen bg-cover object-cover">
+    <div className="bg-[url('/public/bilder/belvedere.jpg')] bg-center bg-no-repeat w-full min-h-screen bg-cover object-cover">
      
       
       <div className="  flex justify-center  text-center">
