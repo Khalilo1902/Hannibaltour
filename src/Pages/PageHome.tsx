@@ -33,7 +33,7 @@ const PageHome = () => {
 
           <figure>
             <img
-              className="w-[400px] h-auto rounded-2xl cursor-pointer"
+              className="w-[400px] h-auto rounded-2xl cursor-pointer scale-100 ease-in hover:scale-125"
               src="../../public/bilder/wusste.jpg"
               alt=""
             />
@@ -94,7 +94,7 @@ const PageHome = () => {
           <h2>Couscous</h2>
           <figure className=" flex flex-col items-center justify-center p-3">
             <img
-              className=" w-[200px] h-[200px] mb-4 rounded"
+              className=" w-[200px] h-[200px] mb-4 rounded cursor-pointer scale-100 ease-in hover:scale-125"
               src="../../public/bilder/essen/couscous.jpg"
               alt=""
             />
@@ -110,7 +110,7 @@ const PageHome = () => {
           <h2>Gegrillte Salat</h2>
           <figure className=" flex flex-col items-center justify-center p-3">
             <img
-              className=" w-[200px] h-[200px] mb-4 rounded"
+              className=" w-[200px] h-[200px] mb-4 rounded cursor-pointer scale-100 ease-in hover:scale-125"
               src="../../public/bilder/essen/salat.jpg"
               alt=""
             />
@@ -128,7 +128,7 @@ const PageHome = () => {
           <h2>MeerFrüchte</h2>
           <figure className=" flex flex-col items-center justify-center p-3">
             <img
-              className=" w-[200px] h-[200px]  mb-4 rounded"
+              className=" w-[200px] h-[200px]  mb-4 rounded cursor-pointer scale-100 ease-in hover:scale-125"
               src="../../public/bilder/essen/meerfruchten.jpg"
               alt=""
             />
