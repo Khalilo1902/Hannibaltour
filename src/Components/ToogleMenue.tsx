@@ -20,7 +20,7 @@ const ToogleMenue:React.FC<IMenu>= ({isActive,changeMenu}) => {
         < NavLink to={"/home"}><BsFillHouseDoorFill/></NavLink>
       </li>
       <li>
-        <NavLink to={"/chat"}><BsChatDots /></NavLink>
+        <NavLink to={"/offnungzeit"}><BsChatDots /></NavLink>
       </li>
       <li>
         <NavLink to={"/contact"}><FcBusinessContact /></NavLink>
